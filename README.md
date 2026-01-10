@@ -1,1 +1,1 @@
-# Core-Banking-System
+A Core Banking System (CBS) enables seamless, branch-independent transactions while ensuring atomicity and consistency during concurrent operations. NexBank simulates this centralized environment with a teller-friendly interface and a robust backend that enforces strict transaction integrity for real-world banking workflows.
