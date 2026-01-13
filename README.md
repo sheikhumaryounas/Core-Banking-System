@@ -7,33 +7,23 @@ Built using Next.js for the frontend and backend logic, along with PostgreSQL as
 🚀 Features
 
 👤 Customer Management
-
 Create and manage customer profiles
-
 Store customer-related information securely
 
 🏦 Account Management
-
 Create bank accounts linked to customers
-
 Maintain accurate account balances
 
 💸 Fund Transfer System
-
 Transfer funds between accounts
-
 Prevent partial or inconsistent transactions
 
 🔐 Transaction Integrity
-
 Uses SQL COMMIT to permanently save successful operations
-
 Uses ROLLBACK to revert changes on failure
-
 Uses SAVEPOINT for partial rollbacks within a transaction
 
 📊 Real-Time Simulation
-
 Demonstrates how real banking systems maintain consistency under failure conditions
 
 🛠️ Tech Stack
@@ -75,8 +65,8 @@ NexBank/
 └── README.md
 ⚙️ Installation & Setup
 1️⃣ Clone the Repository
-git clone https://github.com/your-username/nexbank.git
-cd nexbank
+https://github.com/sheikhumaryounas/Core-Banking-System
+cd nexbank 
 2️⃣ Install Dependencies
 npm install
 3️⃣ Configure Environment Variables
@@ -86,20 +76,14 @@ DATABASE_URL=postgresql://username:password@localhost:5432/nexbank
 npm run dev
 
 The application will be available at:
-
 http://localhost:3000
+
 🧪 Educational Use Case
-
 This project is ideal for:
-
 Database Management System (DBMS) courses
-
 Learning transaction handling in SQL
-
 Understanding real-world banking system logic
-
 Academic demonstrations and mini-projects
-
 🔮 Future Enhancements
 🔑 User authentication & role-based access
 📈 Transaction history and reporting
@@ -111,6 +95,5 @@ This project is developed for educational purposes.
 You are free to use, modify, and extend it with proper attribution.
 
 🙌 Author
-
 Umar
 Computer Science Student / Developer
